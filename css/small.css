@@ -1,0 +1,29 @@
+/* Tell the box sizing to follow the border-box protocol */
+/* uising a Mozila vendor prefix; */
+* { -moz-box-sizing: border-box;
+    /* webkit vendor prefix  */
+    -webkit-box-sizing: border-box; 
+    /* standard CSS 3 rule*/ 
+    box-sizing: border-box;
+}
+
+/* ------- Already added in the normalize file ------*/
+/* This rule helps with iphones and microsoft phones */
+/* prevents the phones from trying to enlarge the font between */
+/* portrait and landscape modes */
+/* html {-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+} */
+
+/* body rules */
+
+
+/* header rules */
+
+
+/* navigation rules */
+
+
+/* main rules */
+
+
