@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Websocket Example</title>
+    <style>
+        .myCanvas {
+            margin: 20px;
+            border: dotted 2px black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for='message'>Enter a Message:</label>
+        <input type='text' name='message'>
+        <button type='submit'>Submit</button>
+    </form>
+    <div id='output'></div>
+
+    <canvas id="myCanvas" class="myCanvas" width="200" height="200">
+        Sorry! Your browser doesn’t support Canvas.
+    </canvas>
+
+    <script src='websocket-main.js'></script>
+</body>
+</html>
